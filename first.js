@@ -4,11 +4,11 @@ function sum(a=0,b=0,c=0) {
 }
 // console.log(sum(10,10,10));
 let sumresult = sum(10,10,10);
-console.log(sumresult);
+// console.log(sumresult);
 
 function sum1(a,b,c){
     let result = a + b + c;
-    console.log(result);
+    // console.log(result);
 }
 sum1(20,20,20)
 
@@ -22,7 +22,18 @@ function totalOfArray(arr=[]){
 }
 // totalOfArray([1,2,3,4,5])
 const arr = [1,2,3,4,5]
-console.log(totalOfArray(arr));
+// console.log(totalOfArray(arr));
 
 // console.log(how);
-console.log(document.getElementById("how"));
+// console.log(document.getElementById("how"));
+
+// to get the body part
+// console.log(document.body)
+
+// to get the head part
+// console.log(document.head);
+
+// to get the whole html code
+// console.log(document.documentElement);
+
+console.log(document.body.firstElementChild);
