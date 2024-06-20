@@ -58,3 +58,28 @@ function totalOfArray(arr=[]){
 // a[0].textContent="hello again"
 // console.log(a[0]);
 
+// query selector to change the content
+// let a = document.querySelector(".are");
+// a.textContent="none"
+
+// get attribute by id name
+// let a = document.getElementById("how");
+// console.log(a.getAttribute("id"));
+
+let mybtn = document.getElementById("mybtn");
+
+function heading(){
+    let h2 = document.createElement("h2")
+    h2.innerText = "heading";
+    document.body.append(h2);
+}
+mybtn.onclick = heading;
+
+let D_button = document.querySelectorAll("button");
+
+function deleteButton(){
+    let h2 = document.querySelector("h2")
+    h2.remove();
+}
+D_button[1].onclick = deleteButton;
+
