@@ -21,7 +21,7 @@ function totalOfArray(arr=[]){
     return total;
 }
 // totalOfArray([1,2,3,4,5])
-const arr = [1,2,3,4,5]
+// const arr = [1,2,3,4,5]
 // console.log(totalOfArray(arr));
 
 // console.log(how);
@@ -36,4 +36,25 @@ const arr = [1,2,3,4,5]
 // to get the whole html code
 // console.log(document.documentElement);
 
-console.log(document.body.firstElementChild);
+// to access first element of body
+// console.log(document.body.firstElementChild);
+
+// to convert a list into an array
+// console.log(document.body.children);
+
+// let arr = document.body.children;
+// let newArray = Array.from(arr)
+// console.log(newArray);
+
+// for(let i=0;i<newArray.length;i++){
+//     console.log(newArray[i]);
+// }
+// console.log(document.getElementById("how"));
+// console.log(document.getElementsByClassName("are"));
+// console.log(document.getElementsByTagName("span"));
+
+// to change the text content from here
+// let a = document.getElementsByTagName("span");
+// a[0].textContent="hello again"
+// console.log(a[0]);
+
