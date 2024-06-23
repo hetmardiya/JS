@@ -66,20 +66,53 @@ function totalOfArray(arr=[]){
 // let a = document.getElementById("how");
 // console.log(a.getAttribute("id"));
 
-let mybtn = document.getElementById("mybtn");
 
-function heading(){
-    let h2 = document.createElement("h2")
-    h2.innerText = "heading";
-    document.body.append(h2);
-}
-mybtn.onclick = heading;
+// these two functions is for adding and deleting heading like ===>>> TO-DO LIST
+// let mybtn = document.getElementById("mybtn");
 
-let D_button = document.querySelectorAll("button");
+// function heading(){
+//     let h2 = document.createElement("h2")
+//     h2.innerText = "heading";
+//     document.body.append(h2);
+// }
+// mybtn.onclick = heading;
 
-function deleteButton(){
-    let h2 = document.querySelector("h2")
-    h2.remove();
-}
-D_button[1].onclick = deleteButton;
+// let D_button = document.querySelectorAll("button");
+
+// function deleteButton(){
+//     let h2 = document.querySelector("h2")
+//     h2.remove();
+// }
+// D_button[1].onclick = deleteButton;
+
+// discuss some methods of array
+// let arr = [2,4,6,8,10]
+
+// let result_find = arr.find((value,index)=>{
+//     if (value > 6) {
+//         return value;
+//     }
+// })
+// console.log(result_find);
+
+// let result_filter = arr.filter((value,index)=>{
+//     if (value > 6) {
+//         return value;
+//     }
+// })
+// console.log(result_filter);
+
+// let result_every = arr.every((value,index)=>{
+//     if (value > 6) {
+//         return value;
+//     }
+// })
+// console.log(result_every);
+
+// let result_some = arr.some((value,index)=>{
+//     if (value > 6) {
+//         return value;
+//     }
+// })
+// console.log(result_some);
 
