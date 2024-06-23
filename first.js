@@ -116,3 +116,5 @@ function totalOfArray(arr=[]){
 // })
 // console.log(result_some);
 
+let gname = new String('hello');
+console.log(gname.toUpperCase());
