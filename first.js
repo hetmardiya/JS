@@ -116,5 +116,17 @@ function totalOfArray(arr=[]){
 // })
 // console.log(result_some);
 
-let gname = new String('hello');
-console.log(gname.toUpperCase());
+// string methods==========================================
+// let gname = new String("hello");
+// console.log(gname);
+// console.log(gname.toUpperCase());
+// console.log(gname.charAt(2));
+// console.log(gname.indexOf("o"));
+// // split use in find a percentage in calculator method
+// console.log(gname.split("e"));
+// // in slice you can use nagative values like slice(-8,4)
+// console.log(gname.slice(0,4));
+// // in substring method you can't use nagative values
+// console.log(gname.substring(0,4));
+// console.log(gname.replace("l","t"));
+// console.log(gname.includes("hel"));
