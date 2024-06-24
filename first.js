@@ -133,17 +133,37 @@ function totalOfArray(arr=[]){
 
 
 // number methods========================================
-let a = 100;
-let b = new Number(100);
-let c = Number(100);
-console.log(a);
-console.log(b);
-console.log(typeof(b));
+// let a = 100;
+// let b = new Number(100);
+// let c = Number(100);
+// console.log(a);
+// console.log(b);
+// console.log(typeof(b));
 
-let d = 123.879;
-console.log(d.toFixed(2));
-console.log(d.toPrecision(4));
+// let d = 123.879;
+// console.log(d.toFixed(2));
+// console.log(d.toPrecision(4));
 
-let e = 10000000;
-console.log(e.toLocaleString());
-console.log(e.toLocaleString("en-US"));
+// let e = 10000000;
+// console.log(e.toLocaleString());
+// console.log(e.toLocaleString("en-US"));
+
+// DATE methods========================================
+let f = new Date(Date.UTC(2024,5,25,14,35,13));
+console.log(f.toLocaleString("en-IN" , {timeZone:'UTC'}));
+
+let current = new Date()
+console.log(current);
+let fulldate = current.toLocaleString(('en-US'),{
+    year: 'numeric',
+    month: 'long',
+    day: 'numeric',
+    hour: '2-digit',
+    minute: '2-digit',
+    second: '2-digit',
+    weekday: 'long',
+    hourCycle: 'h23'
+})
+console.log(fulldate);
+let live_date = document.querySelector(".date h2");
+live_date.textContent = fulldate;
