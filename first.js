@@ -130,3 +130,20 @@ function totalOfArray(arr=[]){
 // console.log(gname.substring(0,4));
 // console.log(gname.replace("l","t"));
 // console.log(gname.includes("hel"));
+
+
+// number methods========================================
+let a = 100;
+let b = new Number(100);
+let c = Number(100);
+console.log(a);
+console.log(b);
+console.log(typeof(b));
+
+let d = 123.879;
+console.log(d.toFixed(2));
+console.log(d.toPrecision(4));
+
+let e = 10000000;
+console.log(e.toLocaleString());
+console.log(e.toLocaleString("en-US"));
