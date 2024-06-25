@@ -154,14 +154,14 @@ function totalOfArray(arr=[]){
 // console.log(f.toUTCString());
 
 // let current = new Date()
-// console.log(current);
+// // console.log(current);
 // let fulldate = current.toLocaleString(('en-US'),{
 //     year: 'numeric',
 //     month: 'long',
 //     day: 'numeric',
 //     hour: '2-digit',
 //     minute: '2-digit',
-//     second: '2-digit',
+//     // second: '2-digit',
 //     weekday: 'long',
 //     hourCycle: 'h23'
 // })
@@ -228,3 +228,6 @@ function totalOfArray(arr=[]){
 // }
 // console.log(rfn(3));
 
+let a = new Array(1,2,3,4,5)
+console.log(a);
+console.log(typeof a);
