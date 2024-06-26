@@ -228,6 +228,29 @@ function totalOfArray(arr=[]){
 // }
 // console.log(rfn(3));
 
-let a = new Array(1,2,3,4,5)
-console.log(a);
-console.log(typeof a);
+
+
+// array methods=================================================
+// this array is object because a new keyword is use to declare the array
+// let a = new Array(1,2,3,4,5)
+// console.log(a);
+// console.log(typeof a);
+
+let a = [1,2,3,4,5]
+// add value at the end of array
+// a.push(6);
+// remove value at the end of array
+// a.pop();
+// add value at the starting of array
+// a.unshift(0)
+// remove value at the starting of array
+// a.shift();
+
+// console.log(a.includes(3));
+// console.log(a.indexOf(3));
+
+// console.log(a.join());
+// console.log(a.join(" || "));
+
+// console.log(a.slice(1,3));
+// console.log(a.splice(2,3));
