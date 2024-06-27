@@ -316,3 +316,30 @@ function totalOfArray(arr=[]){
 // let addtwo = function(num){
 //     return num++;
 // }
+// True
+
+// it execute always
+// if(true){
+//     console.log("welcome");
+// }
+
+// // it execute else part because the value is false
+// let login = false;
+// if(login){
+//     console.log("login");
+// }else{
+//     console.log("not login");
+// }
+
+// // its not working
+// let ename 
+// if(ename){
+//     console.log(ename);
+// }
+
+// // it's working because the name is not empty
+// let ename1 = "local"
+// if(ename1){
+//     console.log(ename1);
+//     console.log(`welcome`);
+// }
