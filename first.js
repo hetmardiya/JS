@@ -236,7 +236,7 @@ function totalOfArray(arr=[]){
 // console.log(a);
 // console.log(typeof a);
 
-let a = [1,2,3,4,5]
+// let a = [1,2,3,4,5]
 // add value at the end of array
 // a.push(6);
 // remove value at the end of array
@@ -254,3 +254,65 @@ let a = [1,2,3,4,5]
 
 // console.log(a.slice(1,3));
 // console.log(a.splice(2,3));
+
+// rest opretor (...) is used to get all the return values instead of only one value>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+// function showingAllNumbers(...num1) {
+//     return num1;
+//   }
+// console.log(showingAllNumbers(1,2,3,4,5));
+
+// object passing in function
+// const user = {
+//     name : "local",
+//     id : 123
+// }
+
+// function handleObject(anyobject){
+//     return `user name is ${anyobject.name} which has ${anyobject.id} id no.`
+// }
+// // accesing the function
+// console.log(handleObject(user));
+
+// console.log(handleObject({
+//     name : "hello",
+//     id : 456
+// }));
+
+// arrays in function
+// let price = [100,200,300,400,500];
+
+// function handleArray(anyarray){
+//     // return anyarray;   //to access all array element
+//     return anyarray[1]    //to access any perticuler element of array
+// }
+
+// console.log(handleArray(price));
+
+// scoping
+
+// function one (){
+//     let a = "hello"
+
+//     function two(){
+//         let b = 123;
+//         console.log(a);
+//     }
+//     // console.log(b);    //this won't work because the scope is over for b variable
+//     two()    //the under function is always call in under the main function
+// }
+// one()
+
+// function declaration
+
+// this works because function is not store into a variable
+// console.log(addone(5));
+// function addone(num){
+//     return num+1;
+// }
+// console.log(addone(6));
+
+// // this won't work because function is store into a variable
+// addtwo(5)
+// let addtwo = function(num){
+//     return num++;
+// }
