@@ -343,3 +343,10 @@ function totalOfArray(arr=[]){
 //     console.log(ename1);
 //     console.log(`welcome`);
 // }
+
+// check the object is empty or not
+// let emptyObject = {};
+
+// if (Array.from(emptyObject).length == 0) {
+//     console.log(`the object is empty`);
+// }
