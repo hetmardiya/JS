@@ -394,3 +394,20 @@ function totalOfArray(arr=[]){
 //     console.log(i);
 // }
 
+// while loop
+
+// printing odd numbers
+// let i = 0;
+// while(i<=10){
+//     console.log(i);
+//     i += 2;
+// }
+
+// let myarr = ["hello","welcome","local"]
+
+// let arr = 0;
+// while(arr<myarr.length){
+//     // console.log(arr);   this is for index
+//     console.log(myarr[arr]);    //this is the value of index
+//     arr = arr + 1;
+// }
