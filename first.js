@@ -411,3 +411,12 @@ function totalOfArray(arr=[]){
 //     console.log(myarr[arr]);    //this is the value of index
 //     arr = arr + 1;
 // }
+
+// let arr = [2,4,6,8,10];
+// for (let value of arr) {
+//     value = value + 2;
+//     console.log(value);
+// }
+
+let a = new Map();
+console.log(typeof a);
