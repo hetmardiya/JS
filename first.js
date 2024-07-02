@@ -350,3 +350,47 @@ function totalOfArray(arr=[]){
 // if (Array.from(emptyObject).length == 0) {
 //     console.log(`the object is empty`);
 // }
+
+
+// FOR loop
+
+// to print 0 to 10 number
+// for (let index = 0; index <= 10; index++) {
+//     const element = index;
+//     console.log(element);
+// }
+
+// nested for loop
+// for(i=0;i<=10;i++){
+//     console.log(`Table of ${i} number`);
+//     for(j=0;j<=10;j++){
+//         console.log(`${i} * ${j} = ${i*j}`);
+//     }
+// }
+
+// array in for loop
+// let myarr = ["hello","welcome","local"]
+
+// for(i=0;i<myarr.length;i++){
+//     console.log(i);   //this has index of array
+//     console.log(myarr[i]);        //this has value of that index number of array
+// }
+
+// print 1 to 5 with break statment
+// for(i=1;i<10;i++){
+//     if (i==5) {
+//         console.log(i);
+//         break;
+//     }
+//     console.log(i);
+// }
+
+// print 1 to 10 with continue statement
+// for(i=1;i<10;i++){
+//     if (i==5) {
+//         // console.log(i  + ' is detected');
+//         continue
+//     }
+//     console.log(i);
+// }
+
