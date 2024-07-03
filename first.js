@@ -440,19 +440,57 @@ function totalOfArray(arr=[]){
 // }
 
 // for...in loop
-let obj = {
-    js:"javascript",
-    cpp : "c++",
-    R : "ruby"
-}
+// let obj = {
+//     js:"javascript",
+//     cpp : "c++",
+//     R : "ruby"
+// }
 
-for (const key in obj) {
-    // console.log(key);   //this is for get only key
-    // console.log(obj[key]); //this is for get onle value
-}
+// for (const key in obj) {
+//     // console.log(key);   //this is for get only key
+//     // console.log(obj[key]); //this is for get onle value
+// }
 
-let arr = ["js","R","cotlin","cpp"]
-for (const key in arr) {
-    // console.log(key);   //this gives index number of array
-    console.log(arr[key]);  //this gives values of array
-}
+// let arr = ["js","R","cotlin","cpp"]
+// for (const key in arr) {
+//     // console.log(key);   //this gives index number of array
+//     console.log(arr[key]);  //this gives values of array
+// }
+
+// forEach loop
+// let coding = ["js","R","cotlin","cpp"];
+
+// coding.forEach((item)=>{
+//     console.log(item);
+// })
+
+// function printMe(val){
+//     console.log(val)
+// }
+// coding.forEach(printMe)
+
+
+// accesing a multiple objects at a time
+// let mixObj = [
+//     {
+//         language:"javascript",
+//         fileExtention:".js"
+//     },
+//     {
+//         language:"python",
+//         fileExtention:".py"
+//     },
+//     {
+//         language:"Ruby",
+//         fileExtention:".R"
+//     },
+//     {
+//         language:"php",
+//         fileExtention:".php"
+//     }
+// ]
+
+// console.log(mixObj[0].language);
+// mixObj.forEach((item)=>{
+//     console.log(item.language);
+// })
