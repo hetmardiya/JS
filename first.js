@@ -418,5 +418,41 @@ function totalOfArray(arr=[]){
 //     console.log(value);
 // }
 
-let a = new Map();
-console.log(typeof a);
+// let map = new Map();
+// map.set("in","india");
+// map.set("us","usa");
+// map.set("db","dubai");
+// map.set("in","indian");
+// console.log(map);
+
+// for (const [key,value] of map) {
+//     // console.log(`${key} :=> ${value}`);
+// }
+
+// object is not itrable in for...of loop
+// let obj = {
+//     name : "hello",
+//     work : "local",
+//     greet : "welcome"
+// }
+// for (const [key] of obj) {
+//     console.log(key);
+// }
+
+// for...in loop
+let obj = {
+    js:"javascript",
+    cpp : "c++",
+    R : "ruby"
+}
+
+for (const key in obj) {
+    // console.log(key);   //this is for get only key
+    // console.log(obj[key]); //this is for get onle value
+}
+
+let arr = ["js","R","cotlin","cpp"]
+for (const key in arr) {
+    // console.log(key);   //this gives index number of array
+    console.log(arr[key]);  //this gives values of array
+}
