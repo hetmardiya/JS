@@ -544,3 +544,9 @@ function totalOfArray(arr=[]){
 //     return acc+crr.price
 // },0)
 // console.log(total_price);
+
+
+// IIFE
+// (function abc(){
+//     console.log("hello");
+// })();
