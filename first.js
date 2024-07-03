@@ -494,3 +494,53 @@ function totalOfArray(arr=[]){
 // mixObj.forEach((item)=>{
 //     console.log(item.language);
 // })
+
+// filter method
+
+// let num = [1,2,3,4,5,6,7,8,9,10];
+
+// let NewNum = num.filter((item)=> {
+//     return item > 4;
+// });
+// console.log(NewNum);
+
+// let arr = [];
+// num.forEach((item)=>{
+//     if (item > 4) {
+//         arr.push(item)
+//     }
+// })
+// console.log(arr);
+
+// reduce method
+// let num = [1,2,3,4,5,6,7,8,9,10];
+// let myTotal = num.reduce((acc,crr)=>(acc+crr),0)
+// console.log(myTotal);
+
+// let myObj = [
+//     {
+//         cource : "js",
+//         price : 2999
+//     },
+//     {
+//         cource : "ruby",
+//         price : 299
+//     },
+//     {
+//         cource : "kotlin",
+//         price : 3999
+//     },
+//     {
+//         cource : "python",
+//         price : 999
+//     },
+//     {
+//         cource : "java",
+//         price : 1999
+//     }
+// ]
+
+// let total_price = myObj.reduce((acc,crr)=>{
+//     return acc+crr.price
+// },0)
+// console.log(total_price);
