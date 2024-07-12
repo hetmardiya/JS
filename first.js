@@ -551,12 +551,24 @@ function totalOfArray(arr=[]){
 //     console.log("hello");
 // })();
 
-let parent = document.querySelector('.parent')
+
+// let parent = document.querySelector('.parent')
 // console.log(parent);
 // console.log(parent.children);
 // console.log(parent.children[2].innerHTML);
 
-for (let i = 0; i < parent.children.length; i++) {
-    console.log(parent.children[i].innerHTML);
+// for (let i = 0; i < parent.children.length; i++) {
+//     console.log(parent.children[i].innerHTML);
     
-}
+// }
+
+// creating and printing an element in javascript
+let div = document.createElement("div");
+div.className = "para";
+div.id = "paro";
+div.setAttribute("title" , "title");
+// div.innerText = "this is created text";
+let abc = document.createTextNode("this is created text");
+div.appendChild(abc)
+document.body.appendChild(div)
+console.log(div);
