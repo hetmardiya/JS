@@ -67,7 +67,7 @@ function totalOfArray(arr=[]){
 // console.log(a.getAttribute("id"));
 
 
-// these two functions is for adding and deleting heading like ===>>> TO-DO LIST
+// these two functions is for adding and deleting heading like ===================================>>> TO-DO LIST
 // let mybtn = document.getElementById("mybtn");
 
 // function heading(){
@@ -563,12 +563,28 @@ function totalOfArray(arr=[]){
 // }
 
 // creating and printing an element in javascript
-let div = document.createElement("div");
-div.className = "para";
-div.id = "paro";
-div.setAttribute("title" , "title");
-// div.innerText = "this is created text";
-let abc = document.createTextNode("this is created text");
-div.appendChild(abc)
-document.body.appendChild(div)
-console.log(div);
+// let div = document.createElement("div");
+// div.className = "para";
+// div.id = "paro";
+// div.setAttribute("title" , "title");
+// // div.innerText = "this is created text";
+// let abc = document.createTextNode("this is created text");
+// div.appendChild(abc)
+// document.body.appendChild(div)
+// console.log(div);
+
+// document.getElementById("btn").addEventListener("click",(e)=>{
+//     console.log(e);
+// })
+
+document.querySelector("#imgs").addEventListener('click', (e)=>{
+    // console.log(e.target.parentNode);
+    // console.log(e.target.parentElement);
+    // console.log(e.target.tagName);
+    // console.log(e);
+    let rm = e.target;
+    if (rm.tagName == 'SPAN') {
+        rm.parentElement.remove()
+    }
+    // rm.parentNode.removeChild(rm);    
+})
