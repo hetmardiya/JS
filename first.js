@@ -588,3 +588,19 @@ document.querySelector("#imgs").addEventListener('click', (e)=>{
     }
     // rm.parentNode.removeChild(rm);    
 })
+
+let c_time = document.querySelector(".c_time");
+let h1 = document.querySelector("h1")
+
+function timing(){
+    let date = new Date()
+    let time = date.toLocaleTimeString()
+    h1.innerHTML = time;
+}
+setInterval(timing , 1000)
+
+// setInterval(() => {
+    // let date = new Date()
+    // let time = date.toLocaleTimeString()
+//     h1.innerHTML = time
+// }, 1000);
