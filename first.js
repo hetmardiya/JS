@@ -577,30 +577,72 @@ function totalOfArray(arr=[]){
 //     console.log(e);
 // })
 
-document.querySelector("#imgs").addEventListener('click', (e)=>{
-    // console.log(e.target.parentNode);
-    // console.log(e.target.parentElement);
-    // console.log(e.target.tagName);
-    // console.log(e);
-    let rm = e.target;
-    if (rm.tagName == 'SPAN') {
-        rm.parentElement.remove()
-    }
-    // rm.parentNode.removeChild(rm);    
-})
+// document.querySelector("#imgs").addEventListener('click', (e)=>{
+//     // console.log(e.target.parentNode);
+//     // console.log(e.target.parentElement);
+//     // console.log(e.target.tagName);
+//     // console.log(e);
+//     let rm = e.target;
+//     if (rm.tagName == 'SPAN') {
+//         rm.parentElement.remove()
+//     }
+//     // rm.parentNode.removeChild(rm);    
+// })
 
-let c_time = document.querySelector(".c_time");
-let h1 = document.querySelector("h1")
+// let c_time = document.querySelector(".c_time");
+// let h1 = document.querySelector("h1")
 
-function timing(){
-    let date = new Date()
-    let time = date.toLocaleTimeString()
-    h1.innerHTML = time;
-}
-setInterval(timing , 1000)
+// function timing(){
+//     let date = new Date()
+//     let time = date.toLocaleTimeString()
+//     h1.innerHTML = time;
+// }
+// setInterval(timing , 1000)
 
 // setInterval(() => {
     // let date = new Date()
     // let time = date.toLocaleTimeString()
 //     h1.innerHTML = time
 // }, 1000);
+
+// promise ======================================================
+// let promis = new Promise(function(resolve,reject){
+//     console.log(`promise function run`);
+//     setTimeout(() => {
+//         resolve()
+//     }, 2000);
+// })
+
+// promis.then(function(){
+//     console.log(`then function is run`);
+// })
+
+// let promise = new Promise(function (resolve,reject){
+//     console.log(`promise function awake`);
+//     let error = false
+//     if (!error) {
+//         resolve({user:'het',email:'het9@gmail.com'})
+//     } else {
+//         reject(`ERROR`)
+//     }
+// })
+
+// promise
+// .then(function(uname){
+//     console.log(uname);
+//     return uname.user
+// })
+// .then(function(un){
+//     console.log(un);
+// })
+// .catch(function(err){
+//     console.log(err);
+// })
+// .finally(()=> console.log(`this portion execute always (by default type)`))
+
+fetch('https://api.github.com/users')
+.then(function(data){
+    return data.json()
+}).then(function(jdata){
+    console.log(jdata);
+}).catch((err)=> console.log(`E: ${err}`))
